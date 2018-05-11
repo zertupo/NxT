@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Ngram Model to predict next word We built and train three...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for next_word {NxT}"><tr><td>next_word {NxT}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Ngram Model to predict next word
+We built and train three ngram to check what will be the next word, we check first with the last 3 words,
+if nothing is found, the last two and so the last. If there is no match, the word the most used is returned.</h2>
+
+<h3>Description</h3>
+
+<p>Ngram Model to predict next word
+We built and train three ngram to check what will be the next word, we check first with the last 3 words,
+if nothing is found, the last two and so the last. If there is no match, the word the most used is returned.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+next_word(str1)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>str1</code></td>
+<td>
+<p>a sentence or word, just the maximum last three words will be in the process.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function is the last test for the data science coursera course of Hopkins university
+</p>
+
+
+<h3>Value</h3>
+
+<p>the five word with the higher frequency following the precedents words.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Aurelien Roussille
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code>filter, tolower,str_split</code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>NxT</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

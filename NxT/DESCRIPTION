@@ -1,0 +1,13 @@
+Package: NxT
+Type: Package
+Title: NxT
+Version: 1.0
+Date: 2018-04-25
+Author: Roussille Aurelien
+Maintainer: Roussille Aurelien <aureliendu30f@hotmail.fr>
+Description: Predict the next word in a sentence.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Built: R 3.4.3; ; 2018-05-11 16:27:34 UTC; windows
