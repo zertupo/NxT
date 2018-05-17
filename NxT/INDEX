@@ -1,6 +1,0 @@
-next_word               Ngram Model to predict next word We built and
-                        train three ngram to check what will be the
-                        next word, we check first with the last 3
-                        words, if nothing is found, the last two and so
-                        the last. If there is no match, the word the
-                        most used is returned.
