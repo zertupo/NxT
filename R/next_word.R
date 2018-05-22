@@ -11,6 +11,8 @@
 #' @importFrom dplyr stringr
 
 
+require(stringr)
+require(dplyr)
 
 next_word<-function(str1){
 
