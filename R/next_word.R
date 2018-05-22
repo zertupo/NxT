@@ -26,7 +26,8 @@ next_word<-function(str1){
     m1<-""
     m2<-""
     m3<-""
-    load("~/NxT/R/sysdata.rda")
+    #load("~NxT_shiny/sysdata.rda")
+    #load("~/NxT/R/sysdata.rda")
     temp<-str_split(str1," ")
     #df1<-read.csv("ngram1.csv",sep = ",",header = TRUE)
     #df2<-read.csv("ngram2.csv",sep = ",",header = TRUE)
